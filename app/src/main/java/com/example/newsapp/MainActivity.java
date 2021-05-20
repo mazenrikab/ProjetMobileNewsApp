@@ -35,6 +35,8 @@ List<Articles> articles = new ArrayList<>();
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         final String country = getCountry();
         fetchJSON(country,API_KEY);
+        
+
     }
 
     private void fetchJSON(String country, String api_key) {
