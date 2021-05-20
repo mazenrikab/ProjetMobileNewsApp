@@ -3,20 +3,20 @@ package com.example.newsapp;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class Client {
+public class ClientSingleton {
     private static final String URL ="https://newsapi.org/v2/";
     private static Retrofit retrofit;
-    private static Client client;
-    private Client()
+    private static ClientSingleton clientSingleton;
+    private ClientSingleton()
     {
         retrofit =new Retrofit.Builder().baseUrl(URL).addConverterFactory(GsonConverterFactory.create()).build();
     }
-    public static synchronized Client getInstance(){
-        if (client==null)
+    public static synchronized ClientSingleton getInstance(){
+        if (clientSingleton ==null)
         {
-            client = new Client();
+            clientSingleton = new ClientSingleton();
         }
-        return client;
+        return clientSingleton;
     }
     public Interface getApi()
     {

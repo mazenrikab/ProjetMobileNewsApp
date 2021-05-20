@@ -40,7 +40,7 @@ List<Articles> articles = new ArrayList<>();
     }
 
     private void fetchJSON(String country, String api_key) {
-        Call<Headlines> call = Client.getInstance().getApi().getHeadlines(country,api_key);;
+        Call<Headlines> call = ClientSingleton.getInstance().getApi().getHeadlines(country,api_key);;
         call.enqueue(new Callback<Headlines>() {
             @Override
             public void onResponse(Call<Headlines> call, Response<Headlines> response) {

@@ -10,23 +10,28 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="   Mazen's News App"
+        android:text="Mazen's News App"
         android:textSize="35sp"
         android:textStyle="bold"
+        android:textColor="#011171"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"/>
     <Button
         android:id="@+id/refresh"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/background"
         android:text="Refresh"
+
         android:textColor="@android:color/white"
         android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        />
+
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
