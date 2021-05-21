@@ -8,15 +8,15 @@ The main objective was to create an application using an API, so I chose a news 
 
 Here is how it should look like from the get go:
 
-<a href = "img/main_activityy.png"> <img src = "img/main_activityy.png" /> <a>
+<a href = "img/main_activityy.png"> <img src = "img/main_activityy.png" width ="300" /> <a>
 
 So first we have an ImageView with the branding name of the app :
   
-  <a href = "img/big_logo.png"> <img src = "img/big_logo.png" width ="500"/> <a>
+  <a href = "img/big_logo.png"> <img src = "img/big_logo.png" width ="300"/> <a>
     
 After that I added a function that will __refresh__ the RecyclerView and all the cardViews will be renewed : 
     
-<a href = "img/refresh_button.png"> <img src = "img/refresh_button.png" width ="500"/> <a>
+<a href = "img/refresh_button.png"> <img src = "img/refresh_button.png" width ="300"/> <a>
 
 When I click on an article (CardView), a WebWiew shows up : 
   
