@@ -1,8 +1,10 @@
 # ProjetMobileNewsApp 
 
-RIKAB Mazen *Classe 32*
+RIKAB Mazen *Class 32*
 
-C'est une application mobile de News utilisant une API https://newsapi.org/
+This is a mobile application programmed in Java using Android Studio and this API: https://newsapi.org/
+
+Here is how it should look like from the get go:
 
 <a href = "img/main_activityy.png"> <img src = "img/main_activityy.png" /> <a>
   
