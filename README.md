@@ -13,3 +13,5 @@ Here is how it should look like from the get go:
 So first we have an ImageView with the branding name of the app :
   
   <a href = "img/big_logo.png"> <img src = "img/big_logo.png" width ="500"/> <a>
+    
+After that I added a function that will __refresh__ the RecyclerView and all the cardView will be renewed.
