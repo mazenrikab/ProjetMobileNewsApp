@@ -6,7 +6,7 @@ This is a mobile application programmed in Java using Android Studio.
 
 The main objective was to create an application using an API, so I chose a news related API: https://newsapi.org/
 
-This is the small icon on the phone : <a href = "img/small_logo.png"> <img src = "img/small_logo.png" width ="300" /> <a>
+This is the small icon on the phone : <a href = "img/small_logo.png"> <img src = "img/small_logo.png" width ="100" /> <a>
 
 Here is how it should look like from the get go:
 
