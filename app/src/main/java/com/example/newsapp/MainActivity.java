@@ -22,7 +22,7 @@ import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity {
 RecyclerView recyclerView;
-Adapter adapter;
+NewsAdapter newsAdapter;
 final String API_KEY = "e7610c69ef3542dba33433b4555641a2";
 Button refreshButton;
 List<Articles> articles = new ArrayList<>();
@@ -40,7 +40,7 @@ List<Articles> articles = new ArrayList<>();
     }
 
     private void fetchJSON(String country, String api_key) {
-        Call<Headlines> call = ClientSingleton.getInstance().getApi().getHeadlines(country,api_key);;
+        Call<Headlines> call = Singleton.getInstance().getApi().getHeadlines(country,api_key);;
         call.enqueue(new Callback<Headlines>() {
             @Override
             public void onResponse(Call<Headlines> call, Response<Headlines> response) {
@@ -48,8 +48,8 @@ List<Articles> articles = new ArrayList<>();
                 {
                     articles.clear();
                     articles=response.body().getArticles();
-                    adapter = new Adapter(MainActivity.this,articles);
-                    recyclerView.setAdapter(adapter);
+                    newsAdapter = new NewsAdapter(MainActivity.this,articles);
+                    recyclerView.setAdapter(newsAdapter);
 
                 }
             }

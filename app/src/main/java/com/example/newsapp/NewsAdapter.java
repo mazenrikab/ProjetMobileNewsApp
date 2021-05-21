@@ -18,10 +18,10 @@ import com.squareup.picasso.Picasso;
 import java.util.List;
 import java.util.Locale;
 
-public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
+public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.ViewHolder> {
     Context context;
     List<Articles> articles;
-    public Adapter(Context context, List<Articles> articles)
+    public NewsAdapter(Context context, List<Articles> articles)
     {
         this.context=context;
         this.articles=articles;

@@ -3,23 +3,23 @@ package com.example.newsapp;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class ClientSingleton {
+public class Singleton {
     private static final String URL ="https://newsapi.org/v2/";
     private static Retrofit retrofit;
-    private static ClientSingleton clientSingleton;
-    private ClientSingleton()
+    private static Singleton singleton;
+    private Singleton()
     {
         retrofit =new Retrofit.Builder().baseUrl(URL).addConverterFactory(GsonConverterFactory.create()).build();
     }
-    public static synchronized ClientSingleton getInstance(){
-        if (clientSingleton ==null)
+    public static synchronized Singleton getInstance(){
+        if (singleton ==null)
         {
-            clientSingleton = new ClientSingleton();
+            singleton = new Singleton();
         }
-        return clientSingleton;
+        return singleton;
     }
-    public Interface getApi()
+    public NewsApi getApi()
     {
-        return retrofit.create(Interface.class);
+        return retrofit.create(NewsApi.class);
     }
 }
