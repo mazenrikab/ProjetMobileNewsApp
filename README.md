@@ -9,4 +9,5 @@ The main objective was to create an application using an API, so I chose a news 
 Here is how it should look like from the get go:
 
 <a href = "img/main_activityy.png"> <img src = "img/main_activityy.png" /> <a>
-  
+
+So first we have an ImageView with the branding name of the app : <a href = "img/big_logo.png"> <img src = "img/big_logo.png" /> <a>
