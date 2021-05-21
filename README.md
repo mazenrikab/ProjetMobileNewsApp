@@ -14,4 +14,6 @@ So first we have an ImageView with the branding name of the app :
   
   <a href = "img/big_logo.png"> <img src = "img/big_logo.png" width ="500"/> <a>
     
-After that I added a function that will __refresh__ the RecyclerView and all the cardView will be renewed.
+After that I added a function that will __refresh__ the RecyclerView and all the cardView will be renewed : 
+    
+<a href = "img/refresh_button.png"> <img src = "img/refresh_button.png" width ="500"/> <a>
