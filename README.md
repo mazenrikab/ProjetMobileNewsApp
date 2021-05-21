@@ -21,3 +21,5 @@ After that I added a function that will __refresh__ the RecyclerView and all the
 When I click on an article (CardView), a WebWiew shows up : 
   
   <a href = "img/web_view.png"> <img src = "img/web_view.png" width ="300"/> <a>
+
+  And that is pretty much all it does :D
