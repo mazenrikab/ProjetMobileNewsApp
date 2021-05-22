@@ -22,7 +22,7 @@ After that I added a function that will __refresh__ the RecyclerView and all the
     
 <a href = "img/refresh_button.png"> <img src = "img/refresh_button.png" width ="300"/> <a>
 
-When I click on an article (CardView), a WebWiew shows up : 
+When I click on an article (CardView), a WebView shows up : 
   
   <a href = "img/web_view.png"> <img src = "img/web_view.png" width ="300"/> <a>
 
