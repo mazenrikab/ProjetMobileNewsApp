@@ -18,9 +18,9 @@ So first we have an ImageView with the branding name of the app :
   
   <a href = "img/big_logo.png"> <img src = "img/big_logo.png" width ="300"/> <a>
     
-    Right below that, we have a date of each article just above the cardView : 
+ Right below that, we have a date of each article just above the cardView : 
     
-     <a href = "img/date.png"> <img src = "img/date.png" width ="300"/> <a>
+ <a href = "img/date.png"> <img src = "img/date.png" width ="300"/> <a>
        
 After that I added a function that will __refresh__ the RecyclerView and all the cardViews will be renewed : 
     
