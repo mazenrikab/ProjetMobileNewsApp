@@ -26,6 +26,6 @@ When I click on an article (CardView), a WebView shows up :
   
   <a href = "img/web_view.png"> <img src = "img/web_view.png" width ="300"/> <a>
 
-Added a notification that pops every day :
+Added a notification that pops every day using Firebase:
     
  <a href = "img/notifcation.png"> <img src = "img/notifcation.png"/> <a>
