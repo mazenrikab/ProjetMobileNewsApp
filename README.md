@@ -28,4 +28,4 @@ When I click on an article (CardView), a WebView shows up :
 
 Added a notification that pops every day :
     
-    <a href = "img/notification.png"> <img src = "img/notification.png" width ="300"/> <a>
+    <a href = "img/notification.png"> <img src = "img/notification.png"/> <a>
