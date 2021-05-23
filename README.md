@@ -29,3 +29,7 @@ When I click on an article (CardView), a WebView shows up :
 Added a notification that pops every day using Firebase:
     
  <a href = "img/notifcation.png"> <img src = "img/notifcation.png"/> <a>
+   
+   All this with a good looking design, I learned a lot these past few weeks on how to build an app from scratch, I have to say, Internet was very helpful when I was looking for anything really.
+
+   APP created the 23 of May 2021 by __Mazen Rikab__
