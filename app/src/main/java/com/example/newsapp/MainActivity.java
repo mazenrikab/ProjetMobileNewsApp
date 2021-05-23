@@ -56,7 +56,7 @@ List<Articles> articles = new ArrayList<>();
 
             @Override
             public void onFailure(Call<Headlines> call, Throwable t) {
-                Toast.makeText(MainActivity.this,"Check your internet connection",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,"Check your internet connection or contact your service provider",Toast.LENGTH_SHORT).show();
             }
         });
     }

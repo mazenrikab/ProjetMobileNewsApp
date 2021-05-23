@@ -4,20 +4,15 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 public class Articles {
-    @SerializedName("source")
-    @Expose
+
     private Source source;
-    @SerializedName("author")
-    @Expose
+
     private String author;
-    @SerializedName("description")
-    @Expose
+
     private String Description;
-    @SerializedName("title")
-    @Expose
+
     private String title;
-    @SerializedName("url")
-    @Expose
+
     private String url;
 
     public Source getSource() {
@@ -76,10 +71,8 @@ public class Articles {
         this.publishedAt = publishedAt;
     }
 
-    @SerializedName("urlToImage")
-    @Expose
+
     private String urlToImage;
-    @SerializedName("publishedAt")
-    @Expose
+
     private String publishedAt;
 }
