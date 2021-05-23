@@ -26,4 +26,24 @@ When I click on an article (CardView), a WebView shows up :
   
   <a href = "img/web_view.png"> <img src = "img/web_view.png" width ="300"/> <a>
 
-  And that is pretty much all it does :D
+Afficher une liste avec RecyclerView.
+
+Afficher les détails des éléments de la liste.
+
+Stockage de données en cache.
+
+Singletons.
+
+Icon de l'app.
+
+
+
+Implémentation d'une API Rest (de News).
+
+Splash screen.
+
+Architecture MVC.
+
+Liaison à un compte Firebase.
+
+Push Notification.
